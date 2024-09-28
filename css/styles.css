@@ -1,0 +1,104 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+}
+
+.bola {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  margin: 5px;
+  background-color: rgb(0, 17, 125);
+}
+
+.bola-1 {
+  animation-name: soltar1;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes soltar1 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: calc(100vh - 50px);
+    opacity: 1;
+  }
+}
+.bola-2 {
+  animation-name: soltar2;
+  animation-duration: 3s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes soltar2 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: calc(100vh - 50px);
+    opacity: 1;
+  }
+}
+.bola-3 {
+  animation-name: soltar3;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes soltar3 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: calc(100vh - 50px);
+    opacity: 1;
+  }
+}
+.bola-4 {
+  animation-name: soltar4;
+  animation-duration: 3s;
+  animation-delay: 9s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes soltar4 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: calc(100vh - 50px);
+    opacity: 1;
+  }
+}
+.bola-5 {
+  animation-name: soltar5;
+  animation-duration: 3s;
+  animation-delay: 12s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes soltar5 {
+  from {
+    top: 0;
+    opacity: 1;
+  }
+  to {
+    top: calc(100vh - 50px);
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
